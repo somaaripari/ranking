@@ -2,46 +2,23 @@ body{
     margin-top: 3.5em;
     background: #fff8e1;
 }
-/*h1{
-    font-size: 3.5em;
-    margin-left: 1em;
-    margin-bottom: .2em;
-    color: #5a3000;
-}*/
+
 .square{
     color: #5a3000;
     margin-top: .1em;
     margin-left: 5em;
     margin-bottom: .1em;
-    font-size: 3.5em;
+    font-size: 2vw;
     counter-reset: list-counter;
     list-style: none;
     float:left;
 }
-/*.square li{
-    margin: .4em 0;    
-}
-.square li:before{
-    content: counter(list-counter);
-    counter-increment: list-counter;
-    width: 1em;
-    height: 1em;
-    padding: .5em;
-    margin-right: 5em;
-    border: .2em solid #947549;
-    background: #5e431c;
-    color: #ffe346;
-    font-family: arial;
-    font-weight: bold;
-    text-align: center;
-    display: inline-block;
-    
-}*/
+
 .flex {
     display: flex; /*横並び*/
   }
   .flex .image {
-    width: 600px; /*画像サイズ指定*/
+    width: 20vw; /*画像サイズ指定*/
     margin: 0;
     padding: 0;
     overflow: hidden;
